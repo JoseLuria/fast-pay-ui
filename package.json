@@ -1,13 +1,38 @@
 {
   "name": "fast-pay-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "homepage": "https://joseluria.com",
+  "repository": {
+    "url": "https://github.com/JoseLuria/fast-pay-ui",
+    "type": "git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "peerDependencies": {
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^5.0.4"
+  },
   "scripts": {
+    "build:storybook": "storybook build",
+    "build:tailwind": "tailwindcss -o ./dist/styles.css --minify",
+    "build:ui": "npm run clear:build && tsc && npm run build:tailwind",
+    "clear:build": "rimraf dist/",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build",
-    "start": "http-server storybook-static",
-    "build:ui": "tsc",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start": "http-server storybook-static"
   },
   "dependencies": {
     "clsx": "^1.2.1",
@@ -38,6 +63,7 @@
     "eslint-plugin-storybook": "^0.6.11",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
+    "rimraf": "^5.0.0",
     "standard": "^17.0.0",
     "storybook": "^7.0.0-beta.61",
     "tailwindcss": "^3.2.7",
