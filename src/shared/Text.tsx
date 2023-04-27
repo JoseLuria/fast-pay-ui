@@ -16,3 +16,5 @@ const styles = {
 export const Text: FC<Props> = ({ tag: Tag = 'p', children, className }) => {
   return <Tag className={clsx(styles[Tag], className)}>{children}</Tag>
 }
+
+export default Text

@@ -43,3 +43,5 @@ export const Button: Overload = ({ className, variant = 'default', full, ...prop
 
   return <button {...componentProps} />
 }
+
+export default Button

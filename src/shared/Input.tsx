@@ -50,3 +50,5 @@ export const Input: FC<Props> = ({
     </span>
   )
 }
+
+export default Input
