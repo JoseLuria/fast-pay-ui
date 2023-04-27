@@ -33,7 +33,7 @@ interface Overload {
 }
 
 const Button: Overload = ({ className, variant = 'default', full, ...props }) => {
-  const btnStyles = clsx(styles.base, styles[variant], full && 'w-full', className)
+  const btnStyles = clsx(styles.base, styles[variant], full ? 'w-full' : 'w-fit', className)
 
   const componentProps = { className: btnStyles, ...props }
 
