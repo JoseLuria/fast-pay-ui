@@ -360,3 +360,5 @@ export const Illustration = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 )
+
+export default Illustration

@@ -18,3 +18,5 @@ export const LogOut = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 )
+
+export default LogOut

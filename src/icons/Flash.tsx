@@ -12,3 +12,5 @@ export const Flash = (props: SVGProps<SVGSVGElement>) => (
     <path d='M17.334 13.333V4L6.667 18.667h8V28l10.667-14.667h-8Z' />
   </svg>
 )
+
+export default Flash

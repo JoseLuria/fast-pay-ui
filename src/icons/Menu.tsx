@@ -17,3 +17,5 @@ export const Menu = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 )
+
+export default Menu
