@@ -19,7 +19,14 @@ jobs:
         run: npm install
       - name: Install Railway
         run: npm i -g @railway/cli
-      - name: Deploy
+      - name: Deploy Storybook
         run: railway up
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      - name: Build UI Package
+        run: npm run build:ui
+      - name: Release FastPay UI
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
