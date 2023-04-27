@@ -18,8 +18,9 @@
     "noUnusedParameters": true,
     "strictNullChecks": true,
     "removeComments": true,
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
