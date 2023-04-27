@@ -16,7 +16,8 @@
     ]
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "peerDependencies": {
     "clsx": "^1.2.1",
