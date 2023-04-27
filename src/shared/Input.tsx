@@ -11,7 +11,7 @@ interface Props extends InputHTMLAttributes<HTMLInputElement> {
   full?: boolean
 }
 
-export const Input: FC<Props> = ({
+const Input: FC<Props> = ({
   name,
   className,
   placeholder,

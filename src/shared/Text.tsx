@@ -13,7 +13,7 @@ const styles = {
   p: 'text-sm text-white text-opacity-50'
 }
 
-export const Text: FC<Props> = ({ tag: Tag = 'p', children, className }) => {
+const Text: FC<Props> = ({ tag: Tag = 'p', children, className }) => {
   return <Tag className={clsx(styles[Tag], className)}>{children}</Tag>
 }
 
