@@ -5,6 +5,7 @@
   "license": "MIT",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "homepage": "https://joseluria.com",
   "repository": {
     "url": "https://github.com/JoseLuria/fast-pay-ui",
@@ -19,12 +20,16 @@
     "dist"
   ],
   "exports": {
-    "./icons": "./dist/icons/index.js"
+    ".": "./dist/index.js",
+    "./*": "./dist/*"
   },
   "typesVersions": {
     "*": {
-      "icons": [
-        "./dist/icons/index.d.ts"
+      "dist/index.d.ts": [
+        "dist/index.d.ts"
+      ],
+      "*": [
+        "dist/*"
       ]
     }
   },
