@@ -21,6 +21,13 @@
   "exports": {
     "./icons": "./dist/icons/index.js"
   },
+  "typesVersions": {
+    "*": {
+      "icons": [
+        "./dist/icons/index.d.ts"
+      ]
+    }
+  },
   "peerDependencies": {
     "clsx": "^1.2.1",
     "next": "13.2.3",
