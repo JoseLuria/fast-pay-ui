@@ -9,28 +9,16 @@ FastPay UI es una librería de componentes creada para la plataforma web de Fast
 
 ## 🚀 ¿Como usar?
 
-Primero clona el repositorio desde GitHub:
+Instala el paquete con el siguiente comando:
 
 ```shell
-git clone https://github.com/JoseLuria/fast-pay-ui.git
+npm i fast-pay-ui
 ```
 
-Muévete a la carpeta del proyecto:
+Puedes acceder a los iconos importándolos de la siguiente manera:
 
-```shell
-cd fast-pay-ui
-```
-
-Instala las dependencias con el siguiente comando:
-
-```shell
-npm install
-```
-
-Inicia la aplicación de **storybook** usando el siguiente comando:
-
-```shell
-npm run dev
+```javascript
+import { Logo } from 'fast-pay-ui/icons'
 ```
 
 ## ⚙️ Esta aplicación fue construida usando las siguientes tecnologías
