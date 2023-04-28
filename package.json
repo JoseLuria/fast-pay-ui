@@ -16,8 +16,11 @@
     ]
   },
   "files": [
-    "dist/**"
+    "dist"
   ],
+  "exports": {
+    ".": "./dist/**"
+  },
   "peerDependencies": {
     "clsx": "^1.2.1",
     "next": "13.2.3",
