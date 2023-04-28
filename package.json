@@ -19,7 +19,7 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/**"
+    "./*": "./dist/*"
   },
   "peerDependencies": {
     "clsx": "^1.2.1",
