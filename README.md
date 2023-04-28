@@ -1,11 +1,11 @@
 <div align='center'>
   <h1>🤖 FastPay | UI Components 💻</h1>
-  <img width='400px' style='margin-bottom: 1.5rem;' src='./public/otg.webp' />
+  <img style='margin-bottom: 1.5rem;' src='./public/otg.webp' />
 </div>
 
 ## 📕 Acerca de FastPay UI
 
-FastPay UI es una librería de componentes creada para la plataforma web de FastPay.
+FastPay UI es una librería de componentes para **Next.js** usada por la plataforma web de FastPay.
 
 ## 🚀 ¿Como usar?
 
@@ -15,7 +15,19 @@ Instala el paquete con el siguiente comando:
 npm i fast-pay-ui
 ```
 
-Puedes acceder a los iconos importándolos de la siguiente manera:
+Primero debes importar los estilos en el **\__app.js_** o **\__app.tsx_** de tu aplicación de **Next.js**
+
+```javascript
+import 'fast-pay-ui/styles.css'
+```
+
+Para acceder a componentes simplemente impórtalos desde el paquete:
+
+```javascript
+import { Button } from 'fast-pay-ui'
+```
+
+Para acceder a los iconos debes importarlos de la siguiente manera:
 
 ```javascript
 import { Logo } from 'fast-pay-ui/icons'
