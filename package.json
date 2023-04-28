@@ -19,7 +19,7 @@
     "dist"
   ],
   "exports": {
-    "./*": "./dist/*"
+    "./icons": "./dist/icons/index.js"
   },
   "peerDependencies": {
     "clsx": "^1.2.1",
