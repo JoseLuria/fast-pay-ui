@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { ArrowDown } from '@/icons'
+import { ArrowDown } from '../../icons'
 
 const meta: Meta<typeof ArrowDown> = {
   title: 'Icons/ArrowDown',

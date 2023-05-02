@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Plus } from '@/icons'
+import { Plus } from '../../icons'
 
 const meta: Meta<typeof Plus> = {
   title: 'Icons/Plus',

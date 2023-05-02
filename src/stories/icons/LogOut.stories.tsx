@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { LogOut } from '@/icons'
+import { LogOut } from '../../icons'
 
 const meta: Meta<typeof LogOut> = {
   title: 'Icons/LogOut',

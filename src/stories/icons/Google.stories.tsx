@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Google } from '@/icons'
+import { Google } from '../../icons'
 
 const meta: Meta<typeof Google> = {
   title: 'Icons/Google',
