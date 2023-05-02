@@ -1,12 +1,8 @@
-import type { FC, HTMLInputTypeAttribute, InputHTMLAttributes } from 'react'
+import type { FC, InputHTMLAttributes } from 'react'
 import clsx from 'clsx'
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
   label: string
-  name: string
-  type?: HTMLInputTypeAttribute
-  placeholder?: string
-  className?: string
   error?: string
   full?: boolean
 }
@@ -41,13 +37,13 @@ const Input: FC<Props> = ({
   }
 
   return (
-    <span className={spanStyles}>
+    <fieldset className={spanStyles}>
       <label className={labelStyles} htmlFor={name}>
         {label}
         {error && <span>{error}</span>}
       </label>
       <input {...props} />
-    </span>
+    </fieldset>
   )
 }
 
