@@ -27,12 +27,6 @@ Para acceder a componentes simplemente impórtalos desde el paquete:
 import { Button } from 'fast-pay-ui'
 ```
 
-Para acceder a los iconos debes importarlos de la siguiente manera:
-
-```javascript
-import { Logo } from 'fast-pay-ui/icons'
-```
-
 ## ⚙️ Esta aplicación fue construida usando las siguientes tecnologías
 
 - [ESLint](https://www.npmjs.com/package/eslint)
