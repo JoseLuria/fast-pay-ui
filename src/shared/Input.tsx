@@ -1,3 +1,4 @@
+import * as React from 'react'
 import type { FC, InputHTMLAttributes } from 'react'
 import clsx from 'clsx'
 

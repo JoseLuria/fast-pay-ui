@@ -1,3 +1,4 @@
+import * as React from 'react'
 import type { HTMLAttributes } from 'react'
 import clsx from 'clsx'
 

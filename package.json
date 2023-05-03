@@ -5,8 +5,7 @@
   "license": "MIT",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "homepage": "https://joseluria.com",
+  "homepage": "https://fast-pay-ui.up.railway.app",
   "repository": {
     "url": "https://github.com/JoseLuria/fast-pay-ui",
     "type": "git"
@@ -49,7 +48,6 @@
   },
   "dependencies": {
     "clsx": "^1.2.1",
-    "http-server": "^14.1.1",
     "next": "13.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -74,6 +72,7 @@
     "eslint": "^8.39.0",
     "eslint-config-next": "^13.3.1",
     "eslint-plugin-storybook": "^0.6.11",
+    "http-server": "^14.1.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "rimraf": "^5.0.0",
